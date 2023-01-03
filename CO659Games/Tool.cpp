@@ -4,23 +4,26 @@
 using namespace std;
 
 
-Tool::Tool(int weight) :weight(weight) 
+Tool::Tool()
 {
+	Display();
 }
 
 
-Tool::~Tool(void) 
+Tool::~Tool() 
 {
-	cout << "Delete Tool" << endl;
+	
 }
 
 
 void Tool::Display() 
 {
-	cout << "Tool" << weight << endl;
+	std::cout << std::endl << "This is a Tool\n" << std::endl;
 }
 
 void Tool::Use()
 {
-	cout << "Using tool" << endl;
+	std::cout << std::endl << " This Tool Does NOTHING\n";
 }
+
+int Tool::totalWeight = 0;

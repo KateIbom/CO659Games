@@ -137,13 +137,16 @@
     <ClCompile Include="Tool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Directions.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Hammer.h" />
-    <ClInclude Include="Location.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Saw.h" />
     <ClInclude Include="Tool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Document.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
