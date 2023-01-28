@@ -29,21 +29,19 @@ For example: Tool.Use(); Hammer.Use(); and Saw.Use();
 same method. The name of the method remains the same but the parameters
 differ. For example: Hammer.Use(); and Hammer.Use(int)
 
-6. Friendship - 
-
-7. Static Members  - Tool has a static member called totalWeight so that anytime
+6. Static Members  - Tool has a static member called totalWeight so that anytime
 an object is created the weight if that object will be added to the total weight
 For example: The games uses method created in hammer of weight 30 and a saw of 
 weight 20. The total weight is 50.
 
-8. Constructors - This is called to create an instance of a class (and objects)
+7. Constructors - This is called to create an instance of a class (and objects)
 For example: the Game.useTool method creates an instance of a hammer using the
 hammers constructor which requires a weight.The tool class as parent class of hammer
 has a constructor without a paremeter that can be called from the child if required.
 The too class can be made abstract as it will not be used to create any anonymous
 tool as the game only requires a hammer and a saw.
 
-9. Pointers - A pointer contains the memory address of a variable. 
+8. Pointers - A pointer contains the memory address of a variable. 
 For example; the game contains a location class which has an array 
 of pointers other locations, this array is referd to as exits. 
 Thus a location can be linked to other locations and a player can move
@@ -51,4 +49,4 @@ from one location to anither in four directions. The map is data structure
 which contains a network of locations. The map keeps track of the players 
 current location.
 
-10.Functional Pointers - 
+9.Functional Pointers - 

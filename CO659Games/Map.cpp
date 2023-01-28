@@ -45,7 +45,7 @@ void Map::CreateForest()
 
 void Map::EnterLocation(Directions)
 {
-	
+	//currentLocation = nextLocation;
 }
 
 Location Map::getCurrentLocation()
